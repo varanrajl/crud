@@ -1,0 +1,42 @@
+<P>{{title}}</P>
+<button (click)="changeop()">change</button>
+<button disabled={{isaliv}}>user</button>
+<button [disabled]="isaliv">user</button>
+<input type="text" [(ngModel)]="username"/>
+<h4>{{username}}</h4>
+<h1>this is varan form</h1>
+<div class="container">
+  <form [formGroup]="register" (ngSubmit)="getdata()">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input
+        type="email"
+        formControlName="email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+      />
+      <span
+        *ngIf="vemail && vemail.invalid && vemail.touched"
+        style="color:red;"
+        >Enter Valid data</span
+      >
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input
+        type="password"
+        formControlName="password"
+        class="form-control"
+        id="exampleInputPassword1"
+      />
+      <span *ngIf="vpwd && vpwd.invalid && vpwd.touched" style="color:red;"
+        >Enter Valid data</span
+      >
+    </div>
+
+    <button [disabled]="register.invalid" type="submit" class="btn btn-primary">
+      Submit
+    </button>
+  </form>
+</div>

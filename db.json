@@ -1,0 +1,112 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "varan",
+      "lastName": "raj",
+      "email": "varan@gmail.com",
+      "mobile": "9037272236",
+      "salary": "8000000"
+    },
+    {
+      "id": 2,
+      "firstName": "kumaran",
+      "lastName": "kumar",
+      "email": "karan@gmail.com",
+      "mobile": "9037272236",
+      "salary": "7876786978"
+    },
+    {
+      "id": 3,
+      "firstName": "lakshmanan",
+      "lastName": "tamil mani",
+      "email": "laksh@gmail.com",
+      "mobile": "676656756756",
+      "salary": "90899798"
+    },
+    {
+      "id": 4,
+      "firstName": "kanthaaaa",
+      "lastName": "kumaran",
+      "email": "kanthan@gmail.com",
+      "mobile": "9042302452",
+      "salary": "700000"
+    },
+    {
+      "id": 5,
+      "firstName": "ramaa@gmail.com",
+      "lastName": "ramaa@gmail.com",
+      "email": "ramaa@gmail.com",
+      "mobile": "4434343",
+      "salary": ""
+    }
+  ],
+  "signupusers": [
+    {
+      "Fullname": "varan raj",
+      "email": "karan@gmail.com",
+      "password": "vaarnn$7789A",
+      "mobile": "8778",
+      "id": 1
+    },
+    {
+      "Fullname": "zaa",
+      "email": "karan@gmail.com",
+      "password": "vaarnn$7789A",
+      "mobile": "32434",
+      "id": 2
+    },
+    {
+      "Fullname": "iuoiu",
+      "email": "karan@gmail.com",
+      "password": "vaarnn$7789A",
+      "mobile": "6687687",
+      "id": 3
+    },
+    {
+      "Fullname": "arikaran",
+      "email": "ari@gmail.com",
+      "password": "123456789",
+      "mobile": "7897676876",
+      "id": 4
+    },
+    {
+      "Fullname": "gggggggg",
+      "email": "ari@gmail.com",
+      "password": "123456789",
+      "mobile": "8909890",
+      "id": 5
+    },
+    {
+      "Fullname": "hhjk",
+      "email": "ari@gmail.com",
+      "password": "123456789",
+      "mobile": "89797",
+      "id": 6
+    },
+    {
+      "Fullname": "varan",
+      "email": "ari^gmail.com",
+      "password": "123456789",
+      "mobile": "8778385857",
+      "id": 7
+    },
+    {
+      "Fullname": "karan",
+      "email": "vara@gmail.com",
+      "password": "123456789",
+      "mobile": "8989789798",
+      "id": 8
+    },
+    {
+      "Fullname": "klrahul",
+      "email": "varan5598@gmail.com",
+      "password": "kl@",
+      "mobile": "432434",
+      "id": 9
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
